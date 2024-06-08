@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Delicious Bites Menu</title>
+  </head>
+
+  <body>
+    <h1>Delicious Bites Menu</h1>
+
+    <h2>Appetizers</h2>
+
+    <ul>
+      <li>
+        <strong>Caprese Salad</strong>
+
+        <section class="bun-type">
+          <label for="bun">What type of Caprese Salad would you like?</label>
+          <select name="bun" id="bun">
+            <option value="sesame">Tomato</option>
+            <option value="potatoe">Onion</option>
+            <option value="pretzel">Lettuce</option>
+          </select>
+        </section>
+      </li>
+      <section class="patties">
+        <label for="amount">How many patties would you like?</label>
+        <input type="number" name="amount" id="amount" />
+      </section>
+      <hr />
+
+      <section class="cooked">
+        <label for="doneness">How do you want your patty cooked</label>
+        <br />
+        <span>Rare</span>
+        <input
+          type="range"
+          name="doneness"
+          id="doneness"
+          value="3"
+          min="1"
+          max="5"
+        />
+        <span>Well-Done</span>
+      </section>
+
+      <!-- Add two more appetizer items with descriptions -->
+    </ul>
+
+    <h2>Main Courses</h2>
+
+    <ul>
+      <li>
+        <strong>Grilled Salmon</strong>
+        <hr />
+
+        <section class="toppings">
+          <span>What Grilled Salmon would you like?</span>
+          <br />
+          <input
+            type="checkbox"
+            name="topping"
+            id="Salmon fillet"
+            value="Salmon fillet"
+          />
+          <label for="Salmon fillet">Salmon fillet</label>
+          <input type="checkbox" name="topping" id="Grilled" value="Grilled " />
+          <label for="Grilled">Grilled</label>
+          <input
+            type="checkbox"
+            name="topping"
+            id="lemon butter sauce"
+            value="lemon butter sauce"
+          />
+          <label for="lemon butter sauce">lemon butter sauce</label>
+
+          <br />
+          <br />
+          <br />
+          <span>Would you like to add cheese?</span>
+          <br />
+          <input type="radio" name="cheese" id="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes" />
+          <label for="no">No</label>
+          <hr />
+        </section>
+      </li>
+
+      <!-- Add two more main course items with descriptions -->
+    </ul>
+
+    <h2>Desserts</h2>
+
+    <ul>
+      <li>
+        <section class="bun-type">
+          <label for="bun">Desserts</label>
+          <select name="bun" id="bun">
+            <option value="Gulab jamun">Gulab jamun</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Coconut burfi">Coconut burfi</option>
+            <option value="Banana split">Banana split</option>
+            <option value="Laddu">Laddu</option>
+          </select>
+        </section>
+      </li>
+      YO
+
+      <!-- Add two more dessert items with descriptions -->
+    </ul>
+
+    <p><a href="contact.html">Contact us for reservations</a></p>
+    <form action="/action_page.php">
+      <label for="Enter your name">Enter your name:</label><br />
+      <input
+        type="text"
+        id="Enter your name"
+        name="Enter your name"
+        value="Enter your name"
+      /><br />
+      <label for=" E-mail">Enter e-mail:</label><br />
+      <input type="text" id="E-mail" name="E-mail" value="E-mail" /><br /><br />
+
+      <section class="extra-info">
+        <label for="extra">Anything else you want to add?</label>
+        <br />
+        <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+      </section>
+      <hr />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
