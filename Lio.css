@@ -1,0 +1,30 @@
+/*  */
+body {
+  padding: 20px;
+  background-color: rgb(119, 11, 221);
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: brown;
+}
+h3 {
+  color: yellow;
+}
+
+h4 {
+  color: blue;
+}
+h5 {
+  color: red;
+}
+#h5:hover {
+  color: white;
+}
+.me {
+  list-style: none;
+}
+.you {
+  list-style: none;
+}
