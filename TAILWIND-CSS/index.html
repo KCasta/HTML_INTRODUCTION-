@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="w-full h-[100px]">
+      <nav
+        class="flex max-w-[1300px] w-[100%] h-[100%] mx-auto items-center justify-between font-[550]"
+      >
+        <h3>Techville</h3>
+        <ul class="hidden sm:flex space-x-4">
+          <li class="hover:text-red-500">
+            <a href="#">Home</a>
+          </li>
+
+          <li class="hover:text-red-500">
+            <a href="#">About</a>
+          </li>
+          <li class="hover:text-red-500">
+            <a href="#">Resources</a>
+          </li>
+          <li class="hover:text-red-500">
+            <a href="#">Solution</a>
+          </li>
+          <li class="hover:text-red-500">
+            <a href="#">Contact us</a>
+          </li>
+        </ul>
+        <div class="hidden sm:flex space-x-4">
+          <button
+            class="rounded-[10px] border-[1px] border-[#C2C6CD] px-2 py-1 hover:bg-[#1185C7] transition ease-in duration-[200] hover:scale-[1.1]"
+          >
+            Sign in
+          </button>
+          <button
+            class="bg-[#1185C7] rounded-lg border-[1px] border-[#C2C6CD] px-2 py-1 hover:bg-inherit transition ease-in duration-200 hover:scale-[1.1]"
+          >
+            Get Started
+          </button>
+        </div>
+        <i class="fa-solid fa-bars sm:hidden"></i>
+      </nav>
+    </div>
+    <section class="w-full bg-[#EAF4FF]">
+      <div class="max-w-[1300px] flex mx-auto justify-between space-x-1 py-3">
+        <div
+          class="flex flex-col items-start justify-center space-y-2 md:w-[50%] py-4 px-4"
+        >
+          <h3 class="font-[600] text-[35px]">
+            Need to purchase a tech gadhet?
+          </h3>
+          <h1 class="font-[700] text-[45px]">Do it through techville</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in
+            consequatur iusto at! Debitis a eligendi excepturi nostrum hic? Iure
+            repellat necessitatibus reprehenderit cumque soluta odio velit quo
+            neque aut!
+          </p>
+          <button
+            class="bg-[#1185C7] rounded-[10px] border-[1px] border-[#C2C6CD] px-2 py-1 text-white hover:bg-black transition ease-in duration-200 hover:scale-[1.1]"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="w-[50%] hidden md:flex">
+          <img src="./image/undraw_applications_w7gv.svg" alt="image" />
+        </div>
+      </div>
+    </section>
+    <!-- grid -->
+    <section class="w-full pt-[50px] mb-[50px]">
+      <div
+        class="max-w-[1300px] w-full mx-auto grid md:grid-cols-2 px-[50px ] lg:px-[250px] gap-6"
+      >
+        <div
+          class="h-[480px] border-[2px] flex flex-col rounded-md transition ease-in duration-200 hover:scale-[1.02] shadow-lg hover:scale-1.02"
+        >
+          <div
+            class="bg-[url(./image/image1.jpg)] bg-cover bg-no-repeat rounded-t-md h-[50%]"
+          ></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            officis,molestiael
+          </p>
+
+          <div class="mt-auto mx-auto">
+            <a href="#">
+              Get Started <span> <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="h-[480px] border-[2px] flex flex-col transition rounded-md ease-in duration-200 hover:scale-[1.02] shadow-lg hover:scale-1.02"
+        >
+          <div
+            class="bg-[url(./image/image2.jpg)] bg-cover bg-no-repeat rounded-t-md h-[50%]"
+          ></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            officis,molestiael
+          </p>
+
+          <div class="mt-auto mx-auto">
+            <a href="#">
+              Get Started <span> <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
